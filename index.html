@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Dmitriy Yarygin</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+
+<table id='table'>
+      
+      <tr> <th> Игрок </th> <th> Пассажир </th> <th> Куда следует   </th>  <th> новый </th> <th> Выполнено </th> </tr>
+      
+      <tr> <td>  <input type="text" onchange="fRecordReset(0)" size="7" value="Илья" /> </td> 
+        <td> - </td> 
+        <td> - </td> 
+        <td onclick="fNew(0)"> заказ </td> 
+        <td onclick="fTasksCount(0)"> Выполнено Ильей </td>  </tr>
+
+      <tr> <td>  <input type="text" onchange="fRecordReset(1)" size="7" value="Дима" />   </td> 
+        <td> - </td> 
+        <td> - </td> 
+        <td onclick="fNew(1)"> заказ </td> 
+        <td onclick="fTasksCount(1)"> 0 </td> </tr>
+
+      <tr> <td> <input type="text" onchange="fRecordReset(2)" size="7" value="Максим" /> </td> 
+        <td> - </td> 
+        <td> - </td> 
+        <td onclick="fNew(2)"> заказ </td> 
+        <td onclick="fTasksCount(2)"> 0 </td> </tr>
+
+</table>  
+<hr>
+<button onclick="fReset()"> Сброс всех записей </button>
+
+
+    
+        <script src="index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

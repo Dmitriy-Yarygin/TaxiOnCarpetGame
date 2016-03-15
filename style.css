@@ -1,0 +1,22 @@
+table {
+  border: 20px solid cyan;
+  font-family: Georgia;
+  font-size: 20px;
+  margin: 10px;
+  color: blue;  
+  text-align: center;
+  background: yellow;
+}
+th {
+  color: cyan;  
+  border: 10px solid cyan;
+}
+td {
+  border: 10px solid cyan;
+}
+input {
+  text-indent: .3em;
+  font-family: Georgia;
+  font-size: 20px;
+  color: blue;  
+}
